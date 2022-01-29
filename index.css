@@ -1,0 +1,68 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+#bgImage{
+	 background-color: #9DA39A;
+}
+
+#bgImage img {
+  border-radius: 20%;
+  margin-top: 30px;
+  position: fixed;
+  width:40%;
+  margin-left:50px;
+ 
+}
+#content{
+    padding-left: 40px;
+}
+h3.title{
+  color: #DB2955;
+  font-size: 20px;
+}
+h6.sub-title{
+  font-weight: bold;
+}
+p{
+    font-size: 15px;
+}
+#title-div{
+    background-color: #f9f9f9;
+    padding:20px;
+}
+#skills,
+#work,
+#port{
+    margin-top: 20px;
+}
+#p-small{
+    font-size: 13px;
+}
+#firstSpan{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #DB2955 !important;
+	font-size: 20px;
+}
+span.text-muted{
+	color:white;
+}
+/*media query*/
+@media screen and (max-width: 900px) {
+	.navbar-light .navbar-nav .nav-link{
+		margin-left:20px;
+		font-size:15px;
+	}
+	#bgImage img {
+		position:relative;
+		margin-bottom:20px;
+	   margin-left: auto;  
+   margin-right: auto;
+   display:block;
+}
